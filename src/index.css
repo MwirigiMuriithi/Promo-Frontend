@@ -1,0 +1,42 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Specify Poppins as the primary font family */
+  font-weight: 400; /* Specify the default font weight */
+  font-size: 18px; /* Increase the default font size for better readability */
+  line-height: 1.6; /* Adjust line height for better spacing */
+  color: #040404; /* Specify the default text color as very dark black */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Specify the font weight for headings */
+  margin-top: 10px; /* Remove default margin for headings */
+}
+
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}

@@ -1,0 +1,151 @@
+
+/* layout */
+:root {
+  --primary:#006666;
+  --error: #e7195a;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+  background: #E3E6F3;
+  position: relative;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 10px;
+  color: #006666;
+  text-decoration: none !important;
+}
+header h6{
+  margin-top: 0px;
+  margin-left: 20px;
+  padding-top: 0px;
+}
+header a {
+  text-decoration: none;
+}
+
+header span {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #006666;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+nav .nav-button {
+  background: #fff;
+  color:#4B0082;
+  border: 3px solid #4B0082;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+nav .nav-button:hover {
+  color: aqua;
+}
+/* Signup and Login buttons */
+nav .auths {
+  margin-left: 10px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+nav .auths:hover {
+  background-color: #004c4c; /* Darker shade of primary color on hover */
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  position: relative; /* Change to relative positioning */
+  z-index: 100;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+}
+
+.menu-toggle.open .bar:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open .bar:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu {
+  display: none; /* Initially hide the menu */
+  flex-direction: column;
+  position: absolute;
+  top: calc(100% + 10px); /* Adjust the top position */
+  right: 20px;
+  background-color: #E3E6F3;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu.open {
+  display: flex; /* Show the menu when open */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu a:hover {
+  color: #1aac83;
+}
+
+  

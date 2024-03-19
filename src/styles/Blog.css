@@ -1,0 +1,87 @@
+/* Blog page styles */
+
+/* Header section */
+#header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.header-bar {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-bar h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.header-bar p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Blog posts section */
+#blog-posts {
+    background-color: #fff;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.post h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.post a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a148c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.post a:hover {
+    background-color: #880e4f;
+}
+.single-blog {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 16px;
+    color: #666;
+}

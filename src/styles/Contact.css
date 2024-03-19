@@ -1,0 +1,119 @@
+/* Contact page styles */
+
+/* Header section */
+#header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-bar {
+    display: flex;
+    align-items: center;
+}
+
+.left-bar {
+    max-width: 50%;
+}
+
+.left-bar h1 {
+    font-size: 36px;
+    color: #4a4a4a;
+}
+
+.left-bar p {
+    font-size: 18px;
+    color: #666;
+}
+
+.right-bar img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact form section */
+#contact-form {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-form-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a148c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #880e4f;
+}
+
+#whatsapp {
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.whatsapp-button img {
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    color: peru; /* Change text color on hover */
+}
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}

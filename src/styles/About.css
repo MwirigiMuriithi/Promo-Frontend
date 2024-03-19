@@ -1,0 +1,215 @@
+/* Cursor Animation */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor::after {
+    content: '';
+    animation: blink 0.8s infinite;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header section */
+#header {
+    background-color: #e6e6fa;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header h1 {
+    background: linear-gradient(45deg, #4a148c, #880e4f);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the actual text */
+    font-size: 36px;
+}
+
+#header .opener {
+    font-size: 36px;
+}
+
+#header p {
+    font-size: 25px;
+}
+
+#header a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #880e4f;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#header a:hover {
+    background-color: #4b0082;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+}
+
+.left-bar {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.right-bar img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mission section */
+#mission {
+    background-color: #d6effb;
+    padding: 50px;
+    text-align: center;
+}
+
+.mission-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4a148c, #880e4f);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the actual text */
+}
+
+.mission-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Values section */
+#values {
+    background-color: #e6e6fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4a148c, #880e4f);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the actual text */
+}
+
+.values-section ul {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.values-section li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style: none;
+    position: relative;
+    color: #4169e1;
+}
+
+.values-section li::before {
+    content: '✔';
+    font-size: 18px;
+    color: #4a148c;
+    position: absolute;
+    left: -30px;
+}
+
+/* Team section */
+#team {
+    background-color: #d6effb;
+    padding: 50px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4a148c, #880e4f);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the actual text */
+}
+.team-section h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+}
+.team-section h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Contact section */
+#contact {
+    background-color: #e6e6fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4a148c, #880e4f);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the actual text */
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #880e4f;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section a:hover {
+    background-color: #4b0082;
+}

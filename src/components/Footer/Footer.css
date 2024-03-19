@@ -1,0 +1,24 @@
+/*.footer {
+    background: #30475e; 
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }*/
+  .footer {
+    background: #30475e; /* Dark blue background color */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1400px; /* Set a maximum width for the footer */
+    margin: 0 auto; /* Center the footer horizontally */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+  .copyright {
+    color: #ffffff; /* White text color */
+    font-size: 14px;
+    margin-top: 10px; /* Adjust the margin for spacing */
+  }
+  

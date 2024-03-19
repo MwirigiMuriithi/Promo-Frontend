@@ -1,0 +1,27 @@
+#bottom-links {
+    background: #e6e6fa;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    display: flex; /* Add display flex to make it a flex container */
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex: 1; /* Equal flex distribution for both columns */
+    padding: 0 20px; /* Add some padding between columns */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+}
+
+.bottom-link {
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.bottom-link:hover {
+    color: #880e4f; /* Change color on hover */
+}

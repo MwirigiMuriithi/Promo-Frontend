@@ -1,0 +1,52 @@
+/* styles/Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #008080; /* Teal color for heading */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #008080; /* Teal color for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #006666; /* Darker teal color on hover */
+}
+
+.login-container .error {
+    color: red; /* Red color for error messages */
+    margin-top: 10px;
+}

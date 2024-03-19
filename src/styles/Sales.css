@@ -1,0 +1,89 @@
+.sales-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    height: auto; /* Auto height for dynamic content */
+    padding: 20px; /* Add padding for better visual appeal */
+  }
+  
+  .sales-container h2 {
+    color: #ff4500; /* Orange-Red color for heading */
+  }
+  
+  .sales-container p {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .sales-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sales-container label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+  }
+  
+  .sales-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the "Initiate Payment" button */
+  .sales-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff4500; /* Orange-Red color for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sales-container button:hover {
+    background-color: #cc3700; /* Darker Orange-Red color on hover */
+  }
+  
+  /* Styling for the "Pay 300 Shillings" button */
+  .sales-container button.prefilled {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #008080; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sales-container button.prefilled:disabled {
+    background-color: #95a5a6; /* Darker gray color for disabled button */
+    cursor: not-allowed;
+  }
+  
+  .sales-container button.prefilled:hover:disabled {
+    background-color: #95a5a6; /* Darker gray color for disabled button on hover */
+  }
+  
+  .sales-container button.prefilled:hover {
+    background-color: #008080; /* Darker green color on hover */
+  }
+  
+  .sales-container a {
+    color: #ff4500; /* Orange-Red color for link */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .sales-container .error-message {
+    color: red; /* Red color for error messages */
+    margin-top: 5px;
+  }
